@@ -25,7 +25,7 @@
       rocketPieces[1].classList.remove('active');
     }
   
-    if(window.scrollY > (thirdOffsetTop - triggerStart)) {
+    if(window.scrollY > (thirdOffsetTop - triggerStart * 0.7)) {
       rocketPieces[2].classList.add('active');
     } else {
       rocketPieces[2].classList.remove('active');
